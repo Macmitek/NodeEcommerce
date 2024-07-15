@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "declaration": true,
+      "target": "ES2016",
+      "module": "commonjs",
+      "outDir": "./lib",
+      "rootDir": "./src",
+      "sourceMap": true,
+      "incremental": true,
+      "resolveJsonModule": true,
+      "tsBuildInfoFile": "./lib/.tsbuildinfo",
+      "esModuleInterop": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
